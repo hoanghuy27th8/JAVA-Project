@@ -773,6 +773,9 @@ public class Form_Main extends javax.swing.JFrame {
         txtNgaynghir.setText("");
         txtTHuong.setText("");
         txtTongNhan.setText("");
+        ImageIcon img_default = new ImageIcon("C:\\Users\\huyb1\\Downloads\\Tải xuống\\nhanvien.jpg");// ảnh mặc định
+        txtanh.setIcon(img_default);
+        txtcanhbao_img.setVisible(true);
     }//GEN-LAST:event_btnNhapmoiActionPerformed
 
     private void btnXoaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnXoaActionPerformed
